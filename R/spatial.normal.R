@@ -1,6 +1,6 @@
 #' Small Area Estimation under Spatial SAR Model and Normal Distribution using Hierarchical Bayesian Method
 #'
-#' @description This function gives small area estimator under Spatial SAR Model and is implemented to variable of interest (y) that assumed to be a Normal Distribution. The range of data is (-∞ < y < ∞).
+#' @description This function gives small area estimator under Spatial SAR Model and is implemented to variable of interest (y) that assumed to be a Normal Distribution. The range of data is \eqn{(-\infty < y < \infty)}.
 #'
 #' @param formula formula that describe the fitted model.
 #' @param vardir sampling variances of direct estimations.
