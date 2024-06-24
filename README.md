@@ -20,7 +20,7 @@ Arina Mana Sikana, Azka Ubaidillah
 
 ## Maintaner
 
-Arina Mana Sikana <221810195@stis.ac.id>
+Arina Mana Sikana <sikanaradrianan@gmail.com>
 
 ## Function
 
