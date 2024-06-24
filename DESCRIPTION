@@ -3,7 +3,7 @@ Type: Package
 Title: Small Area Estimation under Spatial SAR Model using Hierarchical Bayesian Method 
 Version: 0.1.0
 Author: Azka Ubaidillah [aut], Arina Mana Sikana [aut, cre]
-Maintainer: Arina Mana Sikana <221810195@stis.ac.id>
+Maintainer: Arina Mana Sikana <sikanaradrianan@gmail.com>
 Description: Provides several functions and datasets for area level of Small Area Estimation under Spatial SAR Model using Hierarchical Bayesian (HB) Method.
 License: GPL-3
 Encoding: UTF-8
