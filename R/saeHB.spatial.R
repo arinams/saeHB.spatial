@@ -5,7 +5,7 @@
 #' @section Author(s):
 #' Arina Mana Sikana, Azka Ubaidillah
 #'
-#' \strong{Maintaner}: Arina Mana Sikana \email{221810195@@stis.ac.id}
+#' \strong{Maintaner}: Arina Mana Sikana \email{sikanaradrianan@@gmail.com}
 #'
 #' @section Functions:
 #' \describe{
