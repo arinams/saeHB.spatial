@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-Provides several functions and datasets for area level of Small Area Estimation under Spatial SAR Model using Hierarchical Bayesian (HB) Method. Model-based estimators include the HB estimators based on a Spatial Fay-Herriot model with univariate normal distribution for variable of interest.The 'rjags' package is employed to obtain parameter estimates. For the reference, see Rao and Molina (2015) <doi:10.1002/9781118735855>.
+Provides several functions and datasets for area level of Small Area Estimation under Spatial Model using Hierarchical Bayesian (HB) Method. Model-based estimators include the HB estimators based on a Spatial Fay-Herriot model with univariate normal distribution for variable of interest.The 'rjags' package is employed to obtain parameter estimates. For the reference, see Rao and Molina (2015) <doi:10.1002/9781118735855>.
 
 ## Author
 Arina Mana Sikana, Azka Ubaidillah
@@ -28,7 +28,7 @@ Arina Mana Sikana <221810195@stis.ac.id>
 
 ## Function
 
-* `spatial.normal()` This function gives small area estimator under Spatial SAR Model and is implemented to variable of interest (y) that assumed to be a Normal Distribution. The range of data is (-∞ < y < ∞)
+* `sar.normal()` This function gives small area estimator under Spatial SAR Model and is implemented to variable of interest (y) that assumed to be a Normal Distribution. The range of data is (-∞ < y < ∞)
 
 ## Installation
 
@@ -41,7 +41,7 @@ devtools::install_github("arinams/saeHB.spatial")
 
 ## Example
 
-This is a basic example of using `spatial.normal()` function to make an estimate based on synthetic data in this package
+This is a basic example of using `sar.normal()` function to make an estimate based on synthetic data in this package
 
 ```{r example}
 library(saeHB.spatial)
@@ -53,7 +53,7 @@ data(prox.mat)      # Load proximity Matrix
 ## For data with non-sampled area use sp.normNs
 
 ## Fitting model
-result <- spatial.normal(y ~ x1 + x2, "vardir", prox.mat, data = sp.norm)
+result <- sar.normal(y ~ x1 + x2, "vardir", prox.mat, data = sp.norm)
 
 ```
 
