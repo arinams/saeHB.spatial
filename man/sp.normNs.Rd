@@ -3,7 +3,7 @@
 \docType{data}
 \name{sp.normNs}
 \alias{sp.normNs}
-\title{Synthetic Data for Small Area Estimation under Spatial SAR Model and Normal Distribution with non-sampled area}
+\title{Synthetic Data for Small Area Estimation under Spatial Simultaneous Autoregressive (SAR) Model and Normal Distribution with non-sampled area}
 \format{
 A data frame with 64 observations on the following 4 variables:
 \describe{
@@ -19,6 +19,6 @@ data(sp.normNs)
 \description{
 Synthetic data of 64 regions to simulate Small Area Estimation under Spatial SAR Model and Normal Distribution with non-sampled area using Hierarchical Bayesian Method
 
-This data contains \code{NA} values that indicates no sampled at one or more regions. It uses the \code{sp.norm} with the direct estimators and the related variances of 5 regions are missing.
+This data contains \code{NA} values that indicates no sampled at one or more regions. It uses the \code{sp.norm} dataset with the direct estimators and the related variances of 5 regions are missing.
 }
 \keyword{datasets}
